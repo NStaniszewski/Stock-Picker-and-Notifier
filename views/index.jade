@@ -1,0 +1,45 @@
+extends layout
+
+block content
+  #centertext
+    h1= title
+    p Algorithm-based general stock picks, and email buy/sell notifier for specific stocks.
+    br
+    br
+    #tworemfont500hyperlink
+      a(href='./aggressive')='Aggressive Picks'
+      #centertext
+        p Strategy Profit/Loss Chart
+    img(src='./graphs/Aggressive History.jpg',alt="Graph")
+    br
+    br
+    #tworemfont500hyperlink
+      a(href='./safe')='Safer Picks'
+      #centertext
+        p Strategy Profit/Loss Chart
+    img(src='./graphs/Safe History.jpg',alt="Graph")
+  br
+  br
+  br
+  br
+  br
+  br
+  br
+  br
+  #samelinecenter
+    h3='Sign up for email buy/sell notifications on currently tracked stocks/ETFs:'
+    #oneremhyperlink
+      a(href="https://www.proshares.com/our-etfs/leveraged-and-inverse/tqqq") TQQQ
+  #samelinecenter
+    div(id="input")
+      form(id="email_form",name="addEmail",method="post",action="/emails")
+        div(class="label_box")
+          label(for="email")
+        input(type='text',name='emailInput',placeholder='example@gmail.com')
+
+        button(type='submit',onclick='save_email()',id="emailButton") Submit Email
+        script.
+          function save_email() {
+            document.getElementById("emailButton").textContent="Email Submitted"
+            document.getElementById("emailButton").color=rgb(0,0,0,.3)
+          }

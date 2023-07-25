@@ -1,0 +1,84 @@
+body {
+  padding: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgb(0, 0, 0,.3);
+}
+input{
+  font-size:20px;
+}
+p{
+  margin:0px;
+  padding:0px;
+  font-size:10px;
+}
+a {
+  color: #00B7FF;
+}
+
+h1{
+  margin:0px;
+  padding:0px;
+  font-size: 6rem;
+  font-weight: 500;
+}
+h2{
+  margin:0px;
+  padding:0px;
+  font-size: 2rem;
+  font-weight: 500;
+}
+h3{
+  margin:0px;
+  padding:0;
+  font-size: 1rem;
+  font-weight: 500;
+}
+h4{
+  margin:3px;
+  padding:0;
+  font-size: 1.5rem;
+  font-weight:200;
+  color:blue;
+}
+h5{
+  margin:3px;
+  padding:0;
+  font-size: 1.5rem;
+  font-weight:200;
+  color:chartreuse;
+}
+h6{
+  margin:3px;
+  padding:0;
+  font-size: 1.5rem;
+  font-weight:200;
+  color:crimson;
+}
+#centertext{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#samelinecenter{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#footer{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+#oneremhyperlink{
+  font-size: 1rem;
+}
+#tworemfont500hyperlink{
+  font-size: 2rem;
+  font-weight: 500;
+}

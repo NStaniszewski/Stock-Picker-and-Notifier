@@ -1,0 +1,23 @@
+extends layout 
+
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    block content
+        #centertext
+            h1='Current Aggressive Picks'
+            for item in picks 
+              h4=item.Move
+        #centertext
+            h1='Current Aggressive Portfolio'
+            for j in portfolio 
+              if (j.substr(0,1)=='C')
+                h5=j
+              if (j.substr(0,1)=='P')
+                h6=j
+              
+    #footer 
+      p Github: github.com/nstaniszewski
