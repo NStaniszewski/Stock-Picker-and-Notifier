@@ -10,3 +10,5 @@ What it should roughly look like when working (UI design is not my skill), fille
 ![2](https://github.com/NStaniszewski/Stock-Picker-and-Notifier/assets/93354258/6f5a9c50-bcc0-4898-af14-55633fcb54eb)
 
 ![3](https://github.com/NStaniszewski/Stock-Picker-and-Notifier/assets/93354258/415223c3-fee7-4e3c-af20-212616bb2cb5)
+
+The webpage itself is centered I just took off-center screenshots
